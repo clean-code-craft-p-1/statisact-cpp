@@ -5,8 +5,9 @@
 
 namespace Statistics {
 
-struct Stats
+class Stats
 {
+  public:
     explicit Stats(std::span<const double> numbers);
 
     [[nodiscard]] double min() const noexcept;
