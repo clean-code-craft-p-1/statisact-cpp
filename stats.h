@@ -5,3 +5,5 @@ namespace Statistics {
     
     Stats ComputeStatistics(const std::vector<___>& );
 }
+
+void test_fun();
