@@ -20,3 +20,11 @@ Take care not to leave behind any compiler warnings in your solution.
 ## Discussion
 
 What's `epsilon` doing in the test? If you had to choose its value, what would it be?
+
+## Tips to run locally on Windows
+
+- Open the folder in Visual Studio and create project / solution
+- To build on the command-line, install cmake using https://cmake.org/download/
+- If cmake is still not found, you will need to restart all instances of the IDE / terminals
+- Refer to the main-workflow.yml in your repo for the cmake commands to prepare and build.
+- You may need to change the build command to `cmake -G "MinGW Makefiles" -S . -B build`
